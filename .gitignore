@@ -7,6 +7,7 @@ report.html
 # Arquivos de configuração específicos do ambiente
 .env
 .vscode/
+.Results/
 
 # Dependências instaladas localmente
 __pycache__/
