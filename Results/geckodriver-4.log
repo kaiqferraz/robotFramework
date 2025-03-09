@@ -1,0 +1,22 @@
+1741537991848	geckodriver	INFO	Listening on 127.0.0.1:54993
+1741537994915	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54994" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kaiqu\\AppData\\Local\\Temp\\rust_mozprofileh52PZZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741537995217	Marionette	INFO	Marionette enabled
+1741537995404	Marionette	INFO	Listening on port 55006
+WebDriver BiDi listening on ws://127.0.0.1:54994
+Read port: 55006
+1741537995538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54994/devtools/browser/6ad6bebb-7143-42bf-95b2-aff317cc702c
+JavaScript error: https://demoqa.com/bundle.js, line 95: TypeError: rd.find(...) is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-RrBu6Uh8Tni7MuNDKDAmm4FiDxXImcSbr_bjZ7m8EM.js line 2 > eval line 1469 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=demoqa.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22demoqa.com%22,%22topUrl%22:%22demoqa.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.46490316302496826%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=demoqa.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22demoqa.com%22,%22topUrl%22:%22demoqa.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.46490316302496826%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=demoqa.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22demoqa.com%22,%22topUrl%22:%22demoqa.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.46490316302496826%22}:13:3642
+
+JavaScript error: https://demoqa.com/bundle.js, line 95: TypeError: rd.find(...) is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-RrBu6Uh8Tni7MuNDKDAmm4FiDxXImcSbr_bjZ7m8EM.js line 2 > eval line 2450 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://demoqa.com/bundle.js, line 95: TypeError: rd.find(...) is undefined
+1741538016277	Marionette	INFO	Stopped listening on port 55006
+Dynamically enable window occlusion 1

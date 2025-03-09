@@ -1,0 +1,47 @@
+1741538031625	geckodriver	INFO	Listening on 127.0.0.1:55104
+1741538034693	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55105" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kaiqu\\AppData\\Local\\Temp\\rust_mozprofilenHSwS4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1741538034999	Marionette	INFO	Marionette enabled
+1741538035178	Marionette	INFO	Listening on port 55117
+WebDriver BiDi listening on ws://127.0.0.1:55105
+Read port: 55117
+1741538035321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55105/devtools/browser/b90cea73-dd89-4642-902c-64fcbd75c4a3
+JavaScript error: https://demoqa.com/bundle.js, line 95: TypeError: rd.find(...) is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-RrBu6Uh8Tni7MuNDKDAmm4FiDxXImcSbr_bjZ7m8EM.js line 2 > eval line 7829 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Unable to find target with innerWindowId:15032385537"
+console.error: "Unable to find target with innerWindowId:15032385537"
+console.error: "Unable to find target with innerWindowId:15032385537"
+console.error: "Unable to find target with innerWindowId:15032385537"
+console.error: "Unable to find target with innerWindowId:15032385537"
+console.warn: "Listener for event 'frame' did not return a promise."
+1741538054228	Marionette	INFO	Stopped listening on port 55117
+Dynamically enable window occlusion 1
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.watcher2.process8//customhighlighter70, type show failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nshow@resource://devtools/client/fronts/highlighters.js:31:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_enableViewportSizeOnResizeHighlighter@resource://devtools/client/fronts/inspector.js:113:23\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:3295:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.watcher2.process7//domwalker117, type getEmbedderElement failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nreparentRemoteFrame@resource://devtools/client/fronts/walker.js:413:26\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:3295:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.watcher2.process7//domwalker117, type getEmbedderElement failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nreparentRemoteFrame@resource://devtools/client/fronts/walker.js:413:26\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:3295:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.warn: "Inspector destroyed while executing onReflow callback"
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 105: Error: Connection closed, pending request to server0.conn0.watcher2.process7//domwalker117, type getEmbedderElement failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:299:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+reparentRemoteFrame@resource://devtools/client/fronts/walker.js:413:26
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+quit@chrome://remote/content/shared/Browser.sys.mjs:94:22
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:3295:42
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+console.error: "Error in worker resource://devtools/client/shared/source-map-loader/worker.js" ": "

@@ -1,0 +1,25 @@
+# Logs e relatórios do Robot Framework
+output.xml
+log.html
+report.html
+*.png
+
+# Arquivos de configuração específicos do ambiente
+.env
+.vscode/
+
+# Dependências instaladas localmente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos temporários e de backup
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+
+# Arquivos do sistema operacional
+Thumbs.db
