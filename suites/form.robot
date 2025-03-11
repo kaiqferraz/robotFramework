@@ -7,6 +7,7 @@ Test Teardown  Fechar o navegador
 
 TESTE 01 - Realizando cadastro de um novo usuário
     Quando realiza o cadastro do formulario
+    Então o cadastro do formulario é realizado e validado
 
 
 

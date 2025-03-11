@@ -6,12 +6,9 @@ Library           SeleniumLibrary
 ...   Nome=Kaique
 ...   Sobrenome=Silva
 ...   Email=kaique.teste@gmail.com
-# ...   Genero (radio)
 ...   Telefone=11999999999
-# ...   DataNascimento (date)
-...   Assuntos=QA
-# ...   PassaTempos (checkbox)
+...   DataNascimento=10/12/1997
+...   Assuntos=Arts
 ...   Endereco=Rua Teste, 123
-# ...   Arquivo (file)
-# ...   Estado (select)
-# ...   Cidade (select)
+...   CaminhoArquivo=c:/Users/kaiqu/OneDrive/Área de Trabalho/DEVELOP/AUTOMAÇÃO - ROBOT/robotFramework/resources/data/teste.pdf
+...   MensagemDeValidacao=Thanks for submitting the form
