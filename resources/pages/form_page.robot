@@ -21,7 +21,7 @@ Library    OperatingSystem
 *** Keywords ***
 Dado que o usuario acessa a aplicação
     Open Browser  ${geral.URL}   ${geral.Browser}
-    Maximize Browser Window
+    # Maximize Browser Window
 
 Quando realiza o cadastro do formulario
     Wait Until Element Is Visible  ${form.Input_Nome}  1s
@@ -48,12 +48,12 @@ Quando realiza o cadastro do formulario
     Click Element                  ${form.PassaTempos}
 
     File Should Exist              ${registro.CaminhoArquivo}
-    Wait Until Element Is Visible  ${form.Arquivo}  10s
+    Wait Until Element Is Visible  ${form.Arquivo}
     Choose File                    ${form.Arquivo}  ${registro.CaminhoArquivo}
     Sleep                          5s
 
-    Wait Until Element Is Visible  ${form.Input_Endereco}  10s
-    Input Text                     ${form.Input_Endereco}  ${registro.Endereco}
+    Wait Until Element Is Visible  ${form.Input_Endereco}
+    Press Keys                     ${form.Input_Endereco}  ${registro.Endereco}  #Escreve o texto de forma mais lenta
     Sleep                          5s
 
     Wait Until Element Is Visible  ${form.BTN_Submit}  10s
