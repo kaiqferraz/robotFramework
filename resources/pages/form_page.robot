@@ -21,7 +21,7 @@ Library    OperatingSystem
 *** Keywords ***
 Dado que o usuario acessa a aplicação
     Open Browser  ${geral.URL}   ${geral.Browser}
-    # Maximize Browser Window
+    Maximize Browser Window
 
 Quando realiza o cadastro do formulario
     Wait Until Element Is Visible  ${form.Input_Nome}  1s
